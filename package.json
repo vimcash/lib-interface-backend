@@ -1,0 +1,19 @@
+{
+  "name": "lib-interface-backend",
+  "version": "1.0.0",
+  "description": "Libreria de interfaces VimCash",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build-node": "tsc src/index.ts --outDir dist",
+    "dev": "ts-node-dev Pru.ts",
+    "build-t-index": "npx -p typescript tsc src/index.ts --declaration --allowJs --emitDeclarationOnly --outDir dist",
+    "build": "npm run build-node & npm run build-t-index"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
