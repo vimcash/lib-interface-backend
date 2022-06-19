@@ -1,5 +1,5 @@
 {
-  "name": "vcl-interface-dev",
+  "name": "vcl-interface",
   "version": "1.0.0",
   "description": "Libreria de interfaces VimCash",
   "main": "dist/index.js",
@@ -24,8 +24,5 @@
   "homepage": "https://github.com/vimcash/lib-interface-backend#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
-  },
-  "dependencies": {
-    "vcl-interface": "^1.0.1"
   }
 }
