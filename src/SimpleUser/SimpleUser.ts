@@ -4,7 +4,7 @@
  * @param password String
  */
 
-interface SimpleUser {
+export interface SimpleUser {
     username: String;
     password: String;
 }
