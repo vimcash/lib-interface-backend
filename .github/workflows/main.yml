@@ -14,6 +14,8 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+      - run: git config --global user.email "stifler9.0@hotmail.com"
+      - run: git config --global user.name "Eloy castillo"
       - run: npm run build
       - run: npm version patch
       - run: npm publish
