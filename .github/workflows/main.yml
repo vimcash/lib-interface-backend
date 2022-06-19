@@ -19,11 +19,9 @@ jobs:
           git config --global user.name "Eloy castillo"
           npm run build
           npm version --no-git-tag-version patch
-          git status
-          git branch
+          npm publish
           git add .
           git commit -m "ci: Version updated [skip ci]"
           git push
-          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
