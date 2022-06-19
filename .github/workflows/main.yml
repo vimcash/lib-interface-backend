@@ -19,7 +19,7 @@ jobs:
           git config --global user.name "Eloy castillo"
           npm run build
           npm version --no-git-tag-version patch
-          npm publish
+          npm publish --access public
           git add .
           git commit -m "ci: Version updated [skip ci]"
           git push
