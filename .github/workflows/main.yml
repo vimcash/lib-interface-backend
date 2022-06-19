@@ -21,7 +21,7 @@ jobs:
           npm version patch
           git add .
           git commit -m "ci: Version updated [skip ci]"
-          git push origin HEAD
+          git push
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
