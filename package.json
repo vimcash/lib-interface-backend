@@ -1,0 +1,26 @@
+{
+  "name": "vcl-interface",
+  "version": "1.0.1",
+  "description": "Libreria de interfaces VimCash",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.js",
+  "scripts": {
+    "build-node": "tsc src/index.ts --outDir dist",
+    "build-types": "npx -p typescript tsc src/index.ts --declaration --allowJs --emitDeclarationOnly --outDir dist/types",
+    "build": "npm run build-node & npm run build-types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimcash/lib-interface-backend.git"
+  },
+  "keywords": ["Vimcash"],
+  "author": "VimCash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimcash/lib-interface-backend/issues"
+  },
+  "homepage": "https://github.com/vimcash/lib-interface-backend#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
