@@ -20,7 +20,9 @@ jobs:
           npm run build
           npm version patch
           git add .
+          git status
           git commit -m "ci: Version updated [skip ci]"
+          git branch
           git push
           npm publish
         env:
