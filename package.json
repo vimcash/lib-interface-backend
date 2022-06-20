@@ -1,5 +1,5 @@
 {
-  "name": "vcl-interface",
+  "name": "vcl-interface-dec",
   "version": "1.0.0",
   "description": "Libreria de interfaces VimCash",
   "main": "dist/index.js",
