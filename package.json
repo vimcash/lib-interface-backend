@@ -26,6 +26,6 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "vcl-interface-dec": "^1.0.3"
+    "vcl-interface": "^1.0.0"
   }
 }
