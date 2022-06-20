@@ -2,11 +2,11 @@
   "name": "vcl-interface-dec",
   "version": "1.0.3",
   "description": "Libreria de interfaces VimCash",
-  "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "index.js",
+  "types": "types/index.d.ts",
   "scripts": {
-    "build-node": "tsc src/index.ts --outDir dist",
-    "build-types": "npx -p typescript tsc src/index.ts --declaration --allowJs --emitDeclarationOnly --outDir dist/types",
+    "build-node": "tsc index.ts",
+    "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
     "build": "npm run build-node & npm run build-types"
   },
   "repository": {

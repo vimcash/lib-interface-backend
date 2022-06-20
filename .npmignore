@@ -1,2 +1,4 @@
 src
 .npmrc
+SimpleUser/*.ts
+index.ts
