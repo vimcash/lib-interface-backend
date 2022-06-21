@@ -1,6 +1,7 @@
 export { BBTurnDevice } from "./BBTurnDevice";
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { Device } from "./Device";
+export { DeviceStatus } from "./Core/Dependencies/Enums/DeviceStatus";
 export { DeviceTable } from "./Device/DeviceTable";
 export { Product } from "./Product";
 export { ProductTable } from "./Product/ProductTable";

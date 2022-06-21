@@ -4,7 +4,7 @@
 
  export interface Device {
     deviceNickname: String;
-    devicenumber: String;
+    deviceNumber: String;
 }
 
 export default Device;

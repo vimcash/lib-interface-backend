@@ -107,6 +107,5 @@ pru.ts
 # Compilado
 
 /index.js
-/SimpleUser/*.js
 /types/
 index.js
