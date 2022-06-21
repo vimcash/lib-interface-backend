@@ -1,4 +1,6 @@
 src
 .npmrc
-SimpleUser/*.ts
+/*/*.ts
 index.ts
+/*/*/*.ts
+/*/*/*/*.ts
