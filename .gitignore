@@ -109,6 +109,4 @@ pru.ts
 /index.js
 /SimpleUser/*.js
 /types/
-/*/*.js
-/*/*/*.js
-/*/*/*/*.js
+index.js

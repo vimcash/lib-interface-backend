@@ -1,7 +1,3 @@
 src
 .npmrc
-!*.d.ts
-/*/*.ts
 index.ts
-/*/*/*.ts
-/*/*/*/*.ts
