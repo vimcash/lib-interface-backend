@@ -1,6 +1,7 @@
 src
 .npmrc
 /*/*.ts
+!/types/*
 index.ts
 /*/*/*.ts
 /*/*/*/*.ts
