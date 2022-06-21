@@ -1,7 +1,5 @@
 /**
- * This is a simple user interface
- * @param username String
- * @param password String
+ * This is a simple User interface
  */
 
  export interface SimpleUser {

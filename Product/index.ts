@@ -1,7 +1,5 @@
 /**
- * This is a simple company interface
- * @param companyName String
- * @param companyID String
+ * This is a product interface
  */
 
  export interface Product {
