@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
-    "build-node": "tsc index.ts --module es2017",
+    "build-node": "tsc index.ts --module",
     "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
     "build": "npm run build-node & npm run build-types"
   },
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/vimcash/lib-interface-backend#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.0"
   }
 }
