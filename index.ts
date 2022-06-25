@@ -1,3 +1,5 @@
+import { fileURLToPath } from "url";
+
 export { BBTurnDevice } from "./BBTurnDevice";
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { Device } from "./Device";
@@ -11,3 +13,5 @@ export { SimpleUser } from "./SimpleUser";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
 export { TradicionalCompany } from "./TradicionalCompany";
 export { TradicionalCompanyTable } from "./TradicionalCompany/TradicionalCompanyTable";
+export { TradicionalUser } from "./TradicionalUser";
+export { TradicionalUserTable } from "./TradicionalUser/TradicionalUserTable";
