@@ -1,5 +1,3 @@
-import { fileURLToPath } from "url";
-
 export { BBTurnDevice } from "./BBTurnDevice";
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { Device } from "./Device";
