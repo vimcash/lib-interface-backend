@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build-types": "npx -p typescript tsc --declaration --allowJs --emitDeclarationOnly --outDir lib",
+    "build-types": "npx -p typescript tsc src/index.ts --declaration --allowJs --emitDeclarationOnly --outDir lib",
     "build": "npm run build-types"
   },
   "repository": {

@@ -1,12 +1,4 @@
-./src
+src
 .npmrc
 index.ts
 tsconfig.json
-BBTurnDevice
-Core
-Device
-Product
-SimpleCompany
-SimpleUser
-TradicionalCompany
-TradicionalUser
