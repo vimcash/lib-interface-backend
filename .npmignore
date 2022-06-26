@@ -1,4 +1,4 @@
-src
+./src
 .npmrc
 index.ts
 tsconfig.json
