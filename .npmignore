@@ -5,3 +5,4 @@ tsconfig.json
 /*/package.json
 /*/*/package.json
 index.ts
+DeviceStatus.ts

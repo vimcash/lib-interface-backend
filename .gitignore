@@ -107,4 +107,7 @@ pru.ts
 # Compilado
 /types/
 index.js
+DeviceStatus.js
+index.d.ts
+DeviceStatus.d.ts
 lib
