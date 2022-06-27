@@ -2,3 +2,6 @@ src
 .npmrc
 tsconfig.json
 .github
+/*/package.json
+/*/*/package.json
+index.ts

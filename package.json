@@ -6,8 +6,8 @@
   "types": "types/index.d.ts",
   "scripts": {
     "build-node": "tsc index.ts",
-    "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
-    "build": "npm run build-node & npm run build-types"
+    "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly",
+    "build": "npm run build-types"
   },
   "repository": {
     "type": "git",
