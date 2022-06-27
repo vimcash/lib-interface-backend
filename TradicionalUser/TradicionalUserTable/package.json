@@ -1,5 +1,5 @@
 {
     "sideEffects": false,
     "module": "../index.js",
-    "typings": "../types/TradicionalUser/TradicionalUserTable/index.d.ts"
+    "typings": "../index.d.ts"
 }
