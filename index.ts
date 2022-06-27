@@ -3,6 +3,7 @@
 export { BBTurnDevice } from "./BBTurnDevice";
 export { Device } from "./Device";
 export { DeviceStatus } from "./Core/Dependencies/Enums/DeviceStatus";
+export { Inventory } from "./Inventory";
 export { Product } from "./Product";
 export { SimpleCompany } from "./SimpleCompany";
 export { SimpleUser } from "./SimpleUser";
@@ -11,6 +12,7 @@ export { TradicionalUser } from "./TradicionalUser";
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { DeviceTable } from "./Device/DeviceTable";
+export { InventoryTable } from "./Inventory/InventoryTable";
 export { ProductTable } from "./Product/ProductTable";
 export { SimpleCompanyTable } from "./SimpleCompany/SimpleCompanyTable";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
