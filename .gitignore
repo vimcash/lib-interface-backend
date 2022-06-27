@@ -105,7 +105,6 @@ dist
 pru.ts
 
 # Compilado
-
 /types/
 index.js
 lib
