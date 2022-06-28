@@ -4,7 +4,7 @@
 
  export interface SimpleCompany {
     companyName: String;
-    companyID?: String;
+    companyDesc?: String;
 }
 
 export default SimpleCompany;
