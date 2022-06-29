@@ -8,7 +8,7 @@ export { Product } from "./Product";
 export { SimpleCompany } from "./SimpleCompany";
 export { SimpleUser } from "./SimpleUser";
 export { TradicionalCompany } from "./TradicionalCompany";
-export { TradicionalUser } from "./TradicionalUser";
+export { TraditionalUser } from "./TraditionalUser";
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { DeviceTable } from "./Device/DeviceTable";
@@ -17,4 +17,4 @@ export { ProductTable } from "./Product/ProductTable";
 export { SimpleCompanyTable } from "./SimpleCompany/SimpleCompanyTable";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
 export { TradicionalCompanyTable } from "./TradicionalCompany/TradicionalCompanyTable";
-export { TradicionalUserTable } from "./TradicionalUser/TradicionalUserTable";
+export { TraditionalUserTable } from "./TraditionalUser/TraditionalUserTable";
