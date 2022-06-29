@@ -4,11 +4,11 @@
 
 import SimpleUser from "../SimpleUser";
 
- export interface TradicionalUser extends SimpleUser {
+ export interface TraditionalUser extends SimpleUser {
     firstName: string;
     lastName: string;
     phoneNumber?: string;
     email?: string;
 }
 
-export default TradicionalUser;
+export default TraditionalUser;
