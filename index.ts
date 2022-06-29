@@ -7,7 +7,7 @@ export { Inventory } from "./Inventory";
 export { Product } from "./Product";
 export { SimpleCompany } from "./SimpleCompany";
 export { SimpleUser } from "./SimpleUser";
-export { TradicionalCompany } from "./TradicionalCompany";
+export { TraditionalCompany } from "./TraditionalCompany";
 export { TraditionalUser } from "./TraditionalUser";
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
@@ -16,5 +16,5 @@ export { InventoryTable } from "./Inventory/InventoryTable";
 export { ProductTable } from "./Product/ProductTable";
 export { SimpleCompanyTable } from "./SimpleCompany/SimpleCompanyTable";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
-export { TradicionalCompanyTable } from "./TradicionalCompany/TradicionalCompanyTable";
+export { TraditionalCompanyTable } from "./TraditionalCompany/TraditionalCompanyTable";
 export { TraditionalUserTable } from "./TraditionalUser/TraditionalUserTable";

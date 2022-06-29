@@ -4,11 +4,11 @@
 
 import SimpleCompany from "../SimpleCompany";
 
- export interface TradicionalCompany extends SimpleCompany {
+ export interface TraditionalCompany extends SimpleCompany {
     companyLocation: string;
     companyPhone: string;
     companyCode: string;
     companyOwner?: string;
 }
 
-export default TradicionalCompany;
+export default TraditionalCompany;
