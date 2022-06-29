@@ -3,8 +3,8 @@
  */
 
  export interface Inventory {
-    productID: String;
-    productQty: Number;
+    productID: string;
+    productQty: number;
 }
 
 export default Inventory;

@@ -1,5 +1,5 @@
 export interface DataControl {
-    createdBy?: String;
+    createdBy?: string;
     updatedAt?: Date;
-    updatedBy?: String;
+    updatedBy?: string;
 }

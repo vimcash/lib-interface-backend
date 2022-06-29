@@ -3,8 +3,8 @@
  */
 
  export interface Variety {
-    name: String;
-    desc?: String;
+    name: string;
+    desc?: string;
 }
 
 export default Variety;

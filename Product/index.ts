@@ -3,9 +3,9 @@
  */
 
  export interface Product {
-    productName: String;
-    companyID: String;
-    productDesc?: String;
+    productName: string;
+    companyID: string;
+    productDesc?: string;
 }
 
 export default Product;

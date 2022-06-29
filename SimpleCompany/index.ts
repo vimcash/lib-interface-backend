@@ -3,8 +3,8 @@
  */
 
  export interface SimpleCompany {
-    companyName: String;
-    companyDesc?: String;
+    companyName: string;
+    companyDesc?: string;
 }
 
 export default SimpleCompany;

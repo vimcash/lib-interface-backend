@@ -5,10 +5,10 @@
 import SimpleUser from "../SimpleUser";
 
  export interface TradicionalUser extends SimpleUser {
-    firstName: String;
-    lastName: String;
-    phoneNumber?: String;
-    email?: String;
+    firstName: string;
+    lastName: string;
+    phoneNumber?: string;
+    email?: string;
 }
 
 export default TradicionalUser;

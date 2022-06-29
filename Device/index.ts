@@ -3,8 +3,8 @@
  */
 
  export interface Device {
-    deviceNickname: String;
-    deviceNumber: String;
+    deviceNickname: string;
+    deviceNumber: string;
 }
 
 export default Device;

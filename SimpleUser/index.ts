@@ -3,8 +3,8 @@
  */
 
  export interface SimpleUser {
-    username: String;
-    password: String;
+    username: string;
+    password: string;
 }
 
 export default SimpleUser;
