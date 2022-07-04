@@ -10,6 +10,8 @@ export { SimpleCompany } from "./SimpleCompany";
 export { SimpleUser } from "./SimpleUser";
 export { TraditionalCompany } from "./TraditionalCompany";
 export { TraditionalUser } from "./TraditionalUser";
+export { companyUser } from "./Coockie"
+export { traditionalUser } from "./Coockie"
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { CompanyUserTable } from "./CompanyUser/CompanyUserTable"
