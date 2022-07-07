@@ -1,6 +1,8 @@
 // A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 
 export { BBTurnDevice } from "./BBTurnDevice";
+export { CompanyInventory } from "./CompanyInventory"
+export { CompanyProduct } from "./CompanyProduct"
 export { CompanyUser } from "./CompanyUser"
 export { Device } from "./Device";
 export { DeviceStatus } from "./Core/Dependencies/Enums/DeviceStatus";
@@ -12,9 +14,10 @@ export { TraditionalCompany } from "./TraditionalCompany";
 export { TraditionalUser } from "./TraditionalUser";
 export { companyUser } from "./Coockie"
 export { traditionalUser } from "./Coockie"
-export { CompanyInventory } from "./CompanyInventory"
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
+export { CompanyInventoryTable } from "./CompanyInventory/CompanyInventoryTable";
+export { CompanyProductTable } from "./CompanyProduct/CompanyProductTable"
 export { CompanyUserTable } from "./CompanyUser/CompanyUserTable"
 export { DeviceTable } from "./Device/DeviceTable";
 export { InventoryTable } from "./Inventory/InventoryTable";
@@ -23,4 +26,3 @@ export { SimpleCompanyTable } from "./SimpleCompany/SimpleCompanyTable";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
 export { TraditionalCompanyTable } from "./TraditionalCompany/TraditionalCompanyTable";
 export { TraditionalUserTable } from "./TraditionalUser/TraditionalUserTable";
-export { CompanyInventoryTable } from "./CompanyInventory/CompanyInventoryTable";
