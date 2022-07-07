@@ -4,7 +4,6 @@
 
  export interface Product {
     productName: string;
-    companyID: string;
     productDesc?: string;
 }
 
