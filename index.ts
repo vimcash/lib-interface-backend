@@ -12,6 +12,7 @@ export { TraditionalCompany } from "./TraditionalCompany";
 export { TraditionalUser } from "./TraditionalUser";
 export { companyUser } from "./Coockie"
 export { traditionalUser } from "./Coockie"
+export { CompanyInventory } from "./CompanyInventory"
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { CompanyUserTable } from "./CompanyUser/CompanyUserTable"
@@ -22,3 +23,4 @@ export { SimpleCompanyTable } from "./SimpleCompany/SimpleCompanyTable";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
 export { TraditionalCompanyTable } from "./TraditionalCompany/TraditionalCompanyTable";
 export { TraditionalUserTable } from "./TraditionalUser/TraditionalUserTable";
+export { CompanyInventoryTable } from "./CompanyInventory/CompanyInventoryTable";
