@@ -5,9 +5,9 @@
 import SimpleCompany from "../SimpleCompany";
 
  export interface TraditionalCompany extends SimpleCompany {
-    companyLocation: string;
-    companyPhone: string;
-    companyCode: string;
+    companyLocation?: string;
+    companyPhone?: string;
+    companyCode?: string;
     companyOwner?: string;
 }
 
