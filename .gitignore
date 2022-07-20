@@ -110,4 +110,8 @@ index.js
 DeviceStatus.js
 index.d.ts
 DeviceStatus.d.ts
+companyUser.js
+traditionalUser.js
+traditionalUser.d.ts
+companyUser.d.ts
 lib

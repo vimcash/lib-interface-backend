@@ -5,9 +5,8 @@
 import Device from "../Device";
 import { DeviceStatus } from "../Core/Dependencies/Enums/DeviceStatus";
 
- export interface BBTurnDevice extends Device {
-    companyID: string;
-    deviceStatus: DeviceStatus;
+export interface BBTurnDevice extends Device {
+  deviceStatus: DeviceStatus;
 }
 
 export default BBTurnDevice;
