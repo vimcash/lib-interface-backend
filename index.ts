@@ -1,9 +1,10 @@
 // A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 
 export { BBTurnDevice } from "./BBTurnDevice";
-export { CompanyInventory } from "./CompanyInventory"
-export { CompanyProduct } from "./CompanyProduct"
-export { CompanyUser } from "./CompanyUser"
+export { CompanyInventory } from "./CompanyInventory";
+export { CompanyProduct } from "./CompanyProduct";
+export { CompanyClient } from "./CompanyClient";
+export { CompanyUser } from "./CompanyUser";
 export { Device } from "./Device";
 export { DeviceStatus } from "./Core/Dependencies/Enums/DeviceStatus";
 export { Inventory } from "./Inventory";
