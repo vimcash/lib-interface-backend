@@ -19,6 +19,7 @@ export { traditionalUser } from "./Coockie"
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { CompanyInventoryTable } from "./CompanyInventory/CompanyInventoryTable";
 export { CompanyProductTable } from "./CompanyProduct/CompanyProductTable"
+export { CompanyClientTable } from "./CompanyClient/CompanyClientTable";
 export { CompanyUserTable } from "./CompanyUser/CompanyUserTable"
 export { DeviceTable } from "./Device/DeviceTable";
 export { InventoryTable } from "./Inventory/InventoryTable";
