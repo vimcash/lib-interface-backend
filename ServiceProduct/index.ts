@@ -1,9 +1,9 @@
 /**
  * This is a product interface
  */
-import Product from "../Product"
+import CompanyProduct from "../CompanyProduct";
 
-export interface ServiceProduct extends Product{
+export interface ServiceProduct extends CompanyProduct{
   serviceTime: Number; //Seconds
 }
 
