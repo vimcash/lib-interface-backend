@@ -9,6 +9,7 @@ export { Device } from "./Device";
 export { DeviceStatus } from "./Core/Dependencies/Enums/DeviceStatus";
 export { Inventory } from "./Inventory";
 export { Product } from "./Product";
+export { ServiceProduct } from "./ServiceProduct";
 export { SimpleCompany } from "./SimpleCompany";
 export { SimpleUser } from "./SimpleUser";
 export { TraditionalCompany } from "./TraditionalCompany";
@@ -24,6 +25,7 @@ export { CompanyUserTable } from "./CompanyUser/CompanyUserTable"
 export { DeviceTable } from "./Device/DeviceTable";
 export { InventoryTable } from "./Inventory/InventoryTable";
 export { ProductTable } from "./Product/ProductTable";
+export { ServiceProductTable } from "./ServiceProduct/ServiceProductTable";
 export { SimpleCompanyTable } from "./SimpleCompany/SimpleCompanyTable";
 export { SimpleUserTable } from "./SimpleUser/SimpleUserTable";
 export { TraditionalCompanyTable } from "./TraditionalCompany/TraditionalCompanyTable";
