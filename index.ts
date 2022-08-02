@@ -1,6 +1,7 @@
 // A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 
 export { BBTurnDevice } from "./BBTurnDevice";
+export { BinanceToken } from "./BinanceToken";
 export { CompanyInventory } from "./CompanyInventory";
 export { CompanyProduct } from "./CompanyProduct";
 export { CompanyClient } from "./CompanyClient";
@@ -18,6 +19,7 @@ export { companyUser } from "./Coockie"
 export { traditionalUser } from "./Coockie"
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
+export { BinanceTokenTable } from "./BinanceToken/BinanceTokenTable";
 export { CompanyInventoryTable } from "./CompanyInventory/CompanyInventoryTable";
 export { CompanyProductTable } from "./CompanyProduct/CompanyProductTable"
 export { CompanyClientTable } from "./CompanyClient/CompanyClientTable";
