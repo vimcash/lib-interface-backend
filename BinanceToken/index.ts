@@ -6,7 +6,7 @@ import TelegramInfo from "../TelegramInfo";
 
 export interface BinanceToken extends TelegramInfo {
   apiKey: string;
-  apiToken: string;
+  apiSecret: string;
 }
 
 export default BinanceToken;
