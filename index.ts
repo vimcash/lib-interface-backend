@@ -2,6 +2,7 @@
 
 export { BBTurnDevice } from "./BBTurnDevice";
 export { BinanceToken } from "./BinanceToken";
+export { CollabUser } from "./CollabUser";
 export { CompanyInventory } from "./CompanyInventory";
 export { CompanyProduct } from "./CompanyProduct";
 export { CompanyClient } from "./CompanyClient";
@@ -20,6 +21,7 @@ export { traditionalUser } from "./Coockie"
 
 export { BBTurnDeviceTable } from "./BBTurnDevice/BBTurnDeviceTable";
 export { BinanceTokenTable } from "./BinanceToken/BinanceTokenTable";
+export { CollabUserTable } from "./CollabUser/CollabUserTable";
 export { CompanyInventoryTable } from "./CompanyInventory/CompanyInventoryTable";
 export { CompanyProductTable } from "./CompanyProduct/CompanyProductTable"
 export { CompanyClientTable } from "./CompanyClient/CompanyClientTable";
