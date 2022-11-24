@@ -5,6 +5,7 @@
  export interface Device {
     deviceNickname: string;
     deviceCode: string;
+    type: string;
 }
 
 export default Device;
