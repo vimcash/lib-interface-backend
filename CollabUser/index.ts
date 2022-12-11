@@ -3,9 +3,6 @@
  */
 import CompanyUser from "../CompanyUser"
 
-export interface CollabUser extends CompanyUser{
-    userCode: string;
-    collabStatus: boolean
-}
+export interface CollabUser extends CompanyUser{ }
 
 export default CollabUser;
